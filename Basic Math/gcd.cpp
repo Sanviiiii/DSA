@@ -26,7 +26,7 @@ gcd(n1,n2) = gcd(n1-n2,n2) n1>n2
 gcd(a,b) = gcd(a-b,b) a>b
 
 */
-//This acn done by fecurssion also
+//This can done by recurssion also
 #include<bits/stdc++.h>
 #include <iostream>
 using namespace std;
