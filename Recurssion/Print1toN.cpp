@@ -1,11 +1,12 @@
-/*Print a name n times*/
+
+/*Print numbers 1 to n*/
 #include<bits/stdc++.h>
 using namespace std;
 
 void func(int i, int n){
  
    if(i>n) return;
-   cout<<"Raj"<<endl;
+   cout<<i<<endl;
 
    func(i+1,n);
 
@@ -17,3 +18,4 @@ int main(){
   return 0;
 
 }
+
