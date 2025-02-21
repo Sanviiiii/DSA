@@ -1,6 +1,6 @@
 using namespace std;
 #include <iostream>
-   void insertionSort(int arr[],int n) {
+void insertionSort(int arr[],int n) {
    
 for(int i=0;i<n-1;i++){
   int j=i;
