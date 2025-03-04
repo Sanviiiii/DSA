@@ -99,3 +99,29 @@ int main()
     return 0;
 }
 
+
+/*more*/
+// Online C++ compiler to run C++ program online
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int missingNumber(vector<int>& nums, int N) {
+       
+        int xorResult = 0;
+
+        for (int i = 0; i < N; i++) {
+            xorResult ^= nums[i] ^ (i + 1);
+        }
+
+        return xorResult;
+    }
+int main()
+{
+    int N = 5;
+    vector<int> a = {1, 2, 4, 5};
+    int ans = missingNumber(a, N);
+    cout << "The missing number is: " << ans << endl;
+    return 0;
+}
+
