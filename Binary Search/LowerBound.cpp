@@ -51,4 +51,3 @@ int main()
 }
 //upprer 
 // if(a[mid]>target)
-
