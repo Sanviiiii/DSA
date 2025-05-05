@@ -25,7 +25,7 @@ int majorityElement(vector<int> v) {
 
     return -1;
 }
-
+/*
 int main()
 {
     vector<int> arr = {2, 2, 1, 1, 1, 2, 2};
@@ -33,7 +33,7 @@ int main()
     cout << "The majority element is: " << ans << endl;
     return 0;
 }
-
+*/
 //Better
 
 int majorityElement(vector<int>& nums) {
