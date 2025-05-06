@@ -71,3 +71,28 @@ int main() {
    return 0;
    
 }*/
+
+
+/* LENGTH OF LINKED LIST
+int lengthofLL(Node* head){
+    int cnt=0;
+    Node* temp=head;
+  while(temp){
+     
+       temp=temp->next;
+       cnt++;
+  }  
+  return cnt;
+}
+int main() {
+   vector<int> arr={2,1,2,3,6};
+  
+   Node* head = convertArr2LL(arr);
+   Node* temp=head;
+   cout<<"Length of the ll is "<<lengthofLL(head);
+ ///  cout<<head->data;
+  
+   return 0;
+   
+}
+*/
