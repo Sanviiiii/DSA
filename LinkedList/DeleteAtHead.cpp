@@ -27,7 +27,7 @@ Node* convertArr2LL(vector<int> &arr){
     return head;
 }
 void print(Node* head){
-    while(head!=NULL){
+    while(head!=nullptr){
         cout<<head->data<<" ";
         head=head->next;
     }
@@ -35,7 +35,7 @@ void print(Node* head){
 }
 
 Node* RemoveHead(Node* head){
-    if(head==NULL) return head;
+    if(head==nullptr) return head;
     Node* temp=head;
     head=head->next;
     delete temp;
@@ -48,3 +48,12 @@ head=RemoveHead(head);
 print(head);
     return 0;
 }
+/*class Solution {
+public:
+    ListNode* insertAtHead(ListNode* &head, int X) {
+     ListNode* newNode = new ListNode(X);
+     newNode->next=head;
+     head=newNode;
+     return head;
+    }
+};*/
