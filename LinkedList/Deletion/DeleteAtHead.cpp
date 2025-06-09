@@ -51,7 +51,7 @@ print(head);
 /*class Solution {
 public:
     ListNode* insertAtHead(ListNode* &head, int X) {
-     ListNode* newNode = new ListNode(X);
+     ListNode* Node = new ListNode(X);
      newNode->next=head;
      head=newNode;
      return head;
